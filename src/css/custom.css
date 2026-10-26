@@ -1,0 +1,90 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  /* Nova brand */
+  --ifm-color-primary: #e02828;
+  --ifm-color-primary-dark: #c91c20;
+  --ifm-color-primary-darker: #b5171b;
+  --ifm-color-primary-darkest: #8f1017;
+  --ifm-color-primary-light: #ea3838;
+  --ifm-color-primary-lighter: #f04b45;
+  --ifm-color-primary-lightest: #f66b60;
+
+  /* Documentation */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f8fa;
+  --ifm-font-color-base: #24242b;
+  --ifm-heading-color: #17171c;
+  --ifm-link-color: #c91c20;
+  --ifm-link-hover-color: #8f1017;
+
+  /* Code */
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #f3f3f6;
+  --docusaurus-highlighted-code-line-bg: rgba(224, 40, 40, 0.12);
+
+  /* UI */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-menu-color-active: #e02828;
+  --ifm-breadcrumb-color-active: #c91c20;
+}
+
+[data-theme='dark'] {
+  /* Nova brand */
+  --ifm-color-primary: #ff4545;
+  --ifm-color-primary-dark: #ff3030;
+  --ifm-color-primary-darker: #f02020;
+  --ifm-color-primary-darkest: #d71920;
+  --ifm-color-primary-light: #ff5c56;
+  --ifm-color-primary-lighter: #ff746b;
+  --ifm-color-primary-lightest: #ff9185;
+
+  /* Documentation */
+  --ifm-background-color: #151519;
+  --ifm-background-surface-color: #202025;
+  --ifm-font-color-base: #e5e5eb;
+  --ifm-heading-color: #f5f5f7;
+  --ifm-link-color: #ff5c56;
+  --ifm-link-hover-color: #ff9185;
+
+  /* Code */
+  --ifm-code-background: #25252c;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 69, 69, 0.18);
+
+  /* UI */
+  --ifm-navbar-background-color: #19191e;
+  --ifm-menu-color-active: #ff4545;
+  --ifm-breadcrumb-color-active: #ff5c56;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+}
+
+.badge--info {
+  background: var(--ifm-color-info-contrast-background);
+  color: var(--ifm-color-info-contrast-foreground);
+}
+
+.badge--success {
+  background: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-contrast-foreground);
+}
+
+.badge--warning {
+  background: var(--ifm-color-warning-contrast-background);
+  color: var(--ifm-color-warning-contrast-foreground);
+}
